@@ -1,0 +1,254 @@
+body
+{
+    margin: auto;
+    width: 100%;
+}
+/*Partie Accueil*/
+header h1
+{
+  width: 100%;
+  margin-bottom: 50px;
+  height: 80px;
+  padding-top: 50px;
+  background-color: #009688;
+  color: #fcca46;
+  text-align: center;
+}
+
+img[alt="ring"]
+{
+    width: 60px;
+    color: #3a1411;
+    font-weight: bolder;
+}
+#menu
+{
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 300px 300px;
+    grid-gap:30px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#menu div.menu_1,.menu_2,.menu_3,.menu_4
+{
+    border: black 1px solid;
+    padding-top: 50px;
+}
+.menu_1
+{ 
+    background-color: #fde0dc;
+}
+.menu_1 .contenu
+{
+    color: #3a1411;
+    font-weight: bolder;
+    font-family: 'caveat',cursive;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+.menu_1 h3
+{
+    font-size: 1.2em;
+    font-family: 'dancing script',cursive;
+    text-transform:uppercase;
+    
+}
+.menu_2
+{
+    
+    padding-top: 100px;
+    background-color: #f3e2ec;
+    box-shadow: 5px 5px 5px #8d8c8c;
+    
+}
+.menu_2 .contenu
+{
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, rgb(206, 127, 99), rgba(162, 101, 172, 0.855), rgb(57, 73, 171));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+    font-family: 'Lora', serif;
+    font-weight: bolder;
+}
+.menu_2 h3
+{
+    text-transform: capitalize;
+    color: chocolate;
+}
+.menu_3
+{
+    padding-top: 100px;
+    background-color: #c6cfd3;
+    color: #0288D1;
+    box-shadow: 5px 5px 5px #8d8c8c;
+
+}
+.menu_3 .contenu
+{
+    font-family: 'Dancing Script', cursive;
+    background: linear-gradient(to right, #0e3ca8, #145386, #45bdf5);
+    background-color: rgba(0, 0, 0, 0);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: linear-gradient(to right, rgb(14, 60, 168), rgb(20, 83, 134), rgb(69, 189, 245));
+    background-size: auto;
+    background-origin: padding-box;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.4em;
+}
+.menu_3 .contenu h3
+{
+    text-transform: capitalize;
+    color: rgb(69, 189, 245)
+}
+
+.menu_4
+{
+    padding-top: 100px;
+    background-color: #f0f6cf;
+    box-shadow: 5px 5px 5px #8d8c8c;
+}
+
+.menu_4 .contenu
+{
+    background: linear-gradient(to right, #2bd330, #83dbbc);
+    background-color: rgba(0, 0, 0, 0);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: linear-gradient(to right, rgb(43, 211, 48), rgb(131, 219, 188));
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5em;
+}
+.menu_4 .contenu p
+{
+    color: #4CAF50;
+    font-family: 'Kalam', cursive;
+}
+.menu_4 h3
+{
+    text-transform: capitalize;
+}
+article
+{
+    display: flex;
+    justify-content: center; 
+}
+article h3
+{
+    text-transform: capitalize;
+    color: #fcca46;
+}
+
+.incoming
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #009688;
+    color: #fcca46;
+    width: 290px;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+@keyframes dots{
+    
+   50%{
+       opacity: 0;
+       transform:scale(0.7) translateZ(10px)
+   } 
+}
+
+.loading span
+{
+    border: solid 1px solid;
+    width: 8px;
+    margin-top: 30px;
+    height: 8px;
+    margin: 0 5px;
+    background-color: #fcca46;
+    border-radius: 50%;
+    display: inline-flex;
+    animation-name: dots;
+    animation-duration: 2s;
+    cursor: pointer;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out
+}
+
+.loading span:nth-child(2) 
+{
+    background-color: #ff8b57;
+    animation-delay: 0.4s;
+}
+.loading span:nth-child(3) 
+{
+    background-color: #57ffa0;
+    animation-delay: 0.8s;
+}
+
+footer
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.mention_legale
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #009688;
+}
+.mention_legale p
+{
+    padding: 0px 20px;
+    font-size: 1.5em;
+    color: #fcca46;
+}
+
+/* Menu Enchantée*/
+.enchantee
+{
+    display: grid;
+    justify-items: center;
+    background-color: #fde0dc;
+}
+/* Menu Le chic à la française*/
+.chic_a_la_française
+{
+    display: grid;
+    justify-items: center;
+    background-color: #f3e2ec;
+}
+
+/* Menu delice_des_pailles*/
+.delice_des_pailles
+{
+    display: grid;
+    justify-items: center;
+    background-color: #c6cfd3;
+}
+
+/* Menu delice_des_pailles*/
+.La_palette_du_goût
+{
+    display: grid;
+    justify-items: center;
+}
