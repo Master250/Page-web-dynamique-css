@@ -376,7 +376,7 @@ footer
 {
     padding-top: 20px;
     width: 40px;
-    margin-left: 50px;
+    margin-left: 70px;
 }
 .enchantee_en_tete h2
 {
@@ -1134,6 +1134,12 @@ footer .pied_mention
         padding: 20px;
         
     }
+    .enchantee_en_tete img
+    {
+        padding-top: 20px;
+        width: 40px;
+        margin-left: 20px;
+    }
     .plat_menu1
     {
         display: flex;
@@ -1595,6 +1601,12 @@ footer .pied_mention
         margin-bottom: 90px;
         padding: 20px;
         
+    }
+    .enchantee_en_tete img
+    {
+        padding-top: 20px;
+        width: 40px;
+        margin-left: 20px;
     }
     .chic_a_la_française
     {
