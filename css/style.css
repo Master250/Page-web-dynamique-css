@@ -41,8 +41,7 @@ body
     width: 100%;
     background-color: #009688;
     margin-bottom: 50px;
-    height: 110px;
-    
+    height: 120px;
 }
 
 .en_tete_accueil h1
@@ -55,14 +54,15 @@ header
 {
     width: 100%;
     background-color: #009688;
-    height: 110px;
-    
+    height: 120px;
+ 
 }
 header h1
 {
   color: #fcca46;
   text-align: center;
   font-size: 3em; 
+  
 }
 a:link 
 { 
@@ -133,10 +133,10 @@ img[alt="ring"]
 }
 .menu_2 .contenu p
 {
-    font-size: 1.5em;
+    font-size: 1.4em;
     background-image: linear-gradient(to right, rgb(206, 127, 99), rgba(162, 101, 172, 0.855), rgb(57, 73, 171));
+    background-clip: text;
     -webkit-background-clip: text;
-    
     -webkit-text-fill-color: transparent;
     font-weight: bolder;
     font-family: 'Lora', serif;
@@ -162,8 +162,8 @@ img[alt="ring"]
     background-image: linear-gradient(to right, rgb(7, 56, 170), rgb(20, 83, 134), rgb(69, 189, 245));
     background-size: auto;
     background-origin: padding-box;
+    background-clip: text;
     -webkit-background-clip: text;
-    
     -webkit-text-fill-color: transparent;
     font-size: 1.5em;
     font-weight: bolder;
@@ -278,7 +278,8 @@ html,body
 {
     position: relative;
     min-height: 100%;
-    
+    display: flex;
+    flex-direction: column;
 }
 footer
 {
@@ -538,8 +539,8 @@ footer
     padding-top: 60px;
     font-size: 1.2em;
     background-image: linear-gradient(to right, rgb(206, 127, 99), rgba(162, 101, 172, 0.855), rgb(57, 73, 171));
+    background-clip: text;
     -webkit-background-clip: text;
-    
     -webkit-text-fill-color: transparent;
     font-weight: bolder;
     font-family: 'Lora', serif;
@@ -731,8 +732,8 @@ footer
 {
     background-image: linear-gradient(to right, rgb(14, 60, 168), rgb(20, 83, 134), rgb(69, 189, 245));
     -webkit-text-fill-color: transparent;
+    background-clip: text;
     -webkit-background-clip: text;
-    
     font-size: 3em;
     padding: 10px;
 }
@@ -881,7 +882,7 @@ footer
 .La_palette_du_goût h2
 {
     background-image: linear-gradient(to right, rgb(16, 185, 22), rgb(220, 243, 191));
-    
+    background-clip: text;
     -webkit-background-clip: text;
     font-size: 2em;
     color: transparent;
@@ -1375,7 +1376,7 @@ footer .pied_mention
         background-image: linear-gradient(to right, rgb(14, 60, 168), rgb(20, 83, 134), rgb(69, 189, 245));
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
-        
+        background-clip: text;
         font-size: 1.8em;
         padding: 10px;
         text-align: center;
@@ -1570,7 +1571,7 @@ footer .pied_mention
     .La_palette_du_goût h2
     {
         background-image: linear-gradient(to right, rgb(16, 185, 22), rgb(220, 243, 191));
-        
+        background-clip: text;
         -webkit-background-clip: text;
         font-size: 2em;
         color: transparent;
