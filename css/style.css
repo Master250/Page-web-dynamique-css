@@ -196,7 +196,6 @@ img[alt="ring"]
     background-origin: padding-box;
     background-clip: border-box;
     -webkit-background-clip: text;
-    
     -webkit-text-fill-color: transparent;
     font-size: 1.7em;
     font-family: 'Kaushan_Script','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -1120,6 +1119,13 @@ footer .pied_mention
         padding: 70px;
         text-transform: uppercase;
     }
+    .contenu
+    {
+        transform: none;
+    }
+    .contenu:hover{
+        transform: none;
+    }
 /*-----------------Menu enchantee-------------*/
     .enchantee 
     {
@@ -1601,6 +1607,13 @@ footer .pied_mention
         margin-bottom: 90px;
         padding: 20px;
         
+    }
+    .contenu
+    {
+        transform: none;
+    }
+    .contenu:hover{
+        transform: none;
     }
     .enchantee_en_tete img
     {
