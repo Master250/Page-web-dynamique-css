@@ -362,7 +362,6 @@ footer
     background-color: #fde0dc;
     align-self:center;
     width: 900px;
-    
     box-shadow:8px 8px 8px gray ;
     margin-bottom: 200px;
     
@@ -529,7 +528,7 @@ footer
     width: 900px;
     align-self:center;
     box-shadow:8px 8px 8px gray ;
-    margin-bottom: 50px;
+    margin-bottom: 200px;
     height: 800px;
 }
 
