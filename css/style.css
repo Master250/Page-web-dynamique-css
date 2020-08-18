@@ -360,9 +360,9 @@ footer
     display: grid;
     justify-items: center;
     background-color: #fde0dc;
-    justify-content: center;
+    align-self:center;
     width: 900px;
-    margin-left: 220px;
+    
     box-shadow:8px 8px 8px gray ;
     margin-bottom: 200px;
     
@@ -527,7 +527,7 @@ footer
     background-color: #f3e2ec;
     opacity:0.8;
     width: 900px;
-    margin-left: 220px;
+    align-self:center;
     box-shadow:8px 8px 8px gray ;
     margin-bottom: 50px;
     height: 800px;
@@ -717,7 +717,7 @@ footer
     justify-items: center;
     background-color: #c6cfd3;
     width: 900px;
-    margin-left: 220px;
+    align-self:center;
     box-shadow:8px 8px 8px gray ;
     margin-bottom: 150px;
     
@@ -981,6 +981,8 @@ footer
     display: grid;
     justify-items: center;
     height: 700px;
+    align-self:center;
+    width: 900px;
     margin-bottom: 200px;
 }
 #plat_menu4 table td
