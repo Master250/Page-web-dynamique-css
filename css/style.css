@@ -300,7 +300,7 @@ footer
 }
 .mention_legale h3:hover
 {
-    animation: things 50ms ease-in-out 100ms infinite alternate;
+    animation: things 30ms ease-in-out 50ms infinite alternate;
 }
 @keyframes things{
     0%{
@@ -525,7 +525,7 @@ footer
     align-self:center;
     box-shadow:8px 8px 8px gray ;
     margin-bottom: 200px;
-    height: 800px;
+    
 }
 
 .chic_a_la_française h2
@@ -542,13 +542,12 @@ footer
 }
 #plat_menu2
 {
-    margin-bottom: 250px;
+    margin-bottom: 50px;
 }
 #plat_menu2 table:nth-child(0n+2)
 {
     color: #d8852e;
     margin-left: 90px;
-    font-size: 3vmin;
     width: 600px;
 }
 
@@ -593,7 +592,6 @@ footer
 #plat_menu2 table:nth-child(3n+1)
 {
     color: #a56799;
-    font-size: 3vmin;
     width: 600px;
     margin-left: 90px;
 }
@@ -638,7 +636,6 @@ footer
     color:#905bfd;
     margin-bottom: 60px;
     margin-left: 90px;
-    font-size: 3vmin;
     width: 600px;
 }
 
@@ -975,10 +972,10 @@ footer
 {
     display: grid;
     justify-items: center;
-    height: 700px;
     align-self:center;
     width: 900px;
     margin-bottom: 200px;
+    background-color: rgb(245, 248, 241);
 }
 #plat_menu4 table td
 {
@@ -996,6 +993,10 @@ footer
 {
     text-align: center;
     font-weight: bold;
+}
+#plat_menu4
+{
+    margin-bottom: 100px;
 }
 /*---------------Mentions légale-----------------*/
 .mention
@@ -1267,7 +1268,7 @@ footer .pied_mention
     {
         color: #d8852e;
         margin-left: 0px;
-        font-size: 5vmin;
+        
         width: 100%;
     }
     #plat_menu2 table td:nth-child(3n+2)
@@ -1279,7 +1280,7 @@ footer .pied_mention
     #plat_menu2 table:nth-child(3n+1)
     {
         color: #a56799;
-        font-size: 5vmin;
+       
         width: 100%;
         margin-left: 0px;
     }
@@ -1288,7 +1289,7 @@ footer .pied_mention
         color:#905bfd;
         
         margin-left: 0px;
-        font-size: 5vmin;
+        
         width: 100%;
         
     }
