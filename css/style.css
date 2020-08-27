@@ -55,7 +55,6 @@ header
     width: 100%;
     background-color: #009688;
     height: 120px;
-    
 }
 
 header h1
@@ -1005,7 +1004,7 @@ footer
     width: 100%;
     background-color: #009688;
     margin-bottom: 50px;
-    height: 110px;
+    height: 120px;
     
 }
 
@@ -1015,13 +1014,7 @@ footer
   text-align: center;
   font-size: 3em;  
 }
-header .mention
-{
-    width: 100%;
-    background-color: #009688;
-    height: 110px;
-    
-}
+
 header .mention h1
 {
   color: #fcca46;
@@ -1045,7 +1038,7 @@ footer .pied_mention
     font-size: 1.5em;
     color: black;
     text-align: center;
-    padding: 180px;
+    padding: 140px;
     text-transform: uppercase;
 }
 
